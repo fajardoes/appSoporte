@@ -1,0 +1,70 @@
+{
+  "expo": {
+    "name": "Soporte",
+    "slug": "appsupport",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "color": "#006223",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "notification": {
+      "icon": "./assets/logo.png",
+      "color": "#006223"
+    },
+    "extra": {
+      "API_URL": "https://agentespilarh.com/supportAPI",
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "0a99971c-0a52-4a52-89a2-e75393fcab51"
+      }
+    },
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fajardoes.appsupport"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png"
+      },
+      "package": "com.fajardoes.appsupport",
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ],
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/logo.png",
+          "imageWidth": 160,
+          "resizeMode": "contain"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/logo.png",
+          "color": "#006223",
+          "defaultChannel": "default",
+          "enableBackgroundRemoteNotifications": false
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "owner": "fajardoes"
+  }
+}

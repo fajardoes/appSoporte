@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "581953613657",
+    "project_id": "appsupport-82874",
+    "storage_bucket": "appsupport-82874.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581953613657:android:a8bad1a4b7e551a3ff2648",
+        "android_client_info": {
+          "package_name": "com.fajardoes.appsupport"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJWC10oYbyF3DOR6x2pTz01yfmiAzMQ8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

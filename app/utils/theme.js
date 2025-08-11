@@ -1,0 +1,1484 @@
+import { StyleSheet } from 'react-native';
+
+
+export const lightTheme = {
+  mainColor: '#00939C',
+  mainContainer: {
+    alignItems: 'center',
+    flexGrow: 1,
+    padding: 15,
+    backgroundColor: '#eeeeee'
+  },
+  menuScreenContainer: {
+    flexGrow: 1,
+    padding: 16,
+    backgroundColor: '#f4f4f4',
+  },
+  containerHistory: {
+    maxHeight: '50vh', padding: 16, backgroundColor: '#eeeeee'
+  },
+  ticketRow: {
+    marginBottom: 16,
+    borderRadius: 10,
+    backgroundColor: '#ffffff',
+    elevation: 3, // Sombra en Android
+    shadowColor: '#000', // Sombra en iOS
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+  },
+  card: {
+    marginBottom: 16,
+    borderRadius: 10,
+    backgroundColor: '#ffffff',
+    elevation: 3, // Sombra en Android
+    shadowColor: '#000', // Sombra en iOS
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+  },
+  cardContent: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: 16,
+  },
+  cardText: {
+    marginLeft: 16,
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#333',
+  },
+  scrollContent: {
+    flexGrow: 1,
+    justifyContent: 'flex-start',
+    padding: 8
+  },
+  container: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#f3f3f3',
+    borderRadius: 10,
+    marginBottom: 15,
+    elevation: 10
+  },
+  containerLogin: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#f2f2f2',
+    borderRadius: 10,
+    paddingHorizontal: 5,
+    marginBottom: 15,
+    elevation: 1
+  },
+  containerClient: {
+    flexDirection: 'column',
+    backgroundColor: '#f3f3f3',
+  },
+  containerClientInfo: {
+    flexDirection: 'column',
+    backgroundColor: '#f3f3f3',
+    borderRadius: 10,
+    marginBottom: 20,
+    padding: 10,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.8,
+    shadowRadius: 2,
+    // Propiedades de sombra para Android
+    elevation: 10
+  },
+  uploadImgContainer: {
+    marginTop: 20,
+    marginBottom: 5
+  },
+  input: {
+    flex: 1,
+    color: '#091519',
+    paddingVertical: 15,
+    paddingRight: 8,
+    fontSize: 18,
+    borderColor: '#212121',
+    padding: 15
+  },
+  inputOTP: {
+    borderWidth: 1,
+    borderColor: '#ccc',
+    borderRadius: 8,
+    padding: 5,
+    backgroundColor: '#e4e4e4'
+  },
+  inputArea: {
+    flex: 1,
+    color: '#091519',
+    borderWidth: 0.5,
+    padding: 8,
+    fontSize: 14,
+    borderRadius: 7,
+    minHeight: 80
+  },
+  inputAreaAlert: {
+    flex: 1,
+    color: '#091519',
+    borderWidth: 1,
+    borderColor: '#ee2014',
+    padding: 8,
+    fontSize: 14,
+    borderRadius: 7,
+    minHeight: 80
+  },
+  inputContainer: {
+    elevation: 2,
+    backgroundColor: '#f3f3f3',
+    borderRadius: 10
+  },
+  inputWButton: {
+    flex: 1,
+    color: '#ccc',
+    fontSize: 16,
+    padding: 10,
+    borderRadius: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: '#FFF'
+  },
+  inputSearch: {
+    color: '#101010',
+    backgroundColor: '#e5e5e5',
+    fontSize: 16,
+    borderRadius: 10,
+    borderWidth: 0.5,
+    marginTop: 20,
+    marginBottom: 20,
+    maxWidth: 350,
+    marginLeft: 10,
+    paddingHorizontal: 10,
+    elevation: 3, // Sombra en Android
+    shadowColor: '#000000', // Sombra en iOS
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.8,
+    shadowRadius: 4,
+  },
+  inputSearchContainer: {
+    width: '80%',
+    padding: 20
+
+  },
+  icon: {
+    marginRight: 10,
+  },
+  heading: {
+    alignItems: 'center',
+    fontSize: 20,
+    color: 'green',
+    marginBottom: 20,
+  },
+  imageContainer: {
+    marginBottom: 20,
+    alignItems: 'center',
+  },
+  imageBackLogo: {
+    position: 'absolute',
+    top: 0,
+    left: 15,
+    right: 0,
+    bottom: 0,
+    zIndex: -1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  imageContLogo: {
+    width: '100%',
+    height: '100%',
+    resizeMode: 'contain',
+    opacity: 0.1,
+  },
+  logoContainer: {
+    width: 125,
+    height: 125,
+    resizeMode: 'contain',
+    alignItems: 'center',
+  },
+
+  image: {
+    width: 225,
+    height: 225,
+    resizeMode: 'contain',
+    alignItems: 'center',
+  },
+  imageHeader: {
+    width: 75,
+    height: 75,
+    resizeMode: 'contain',
+    alignItems: 'center',
+  },
+  imageWrapper: {
+    margin: 10,
+    alignItems: 'center',
+  },
+  imageStyle: {
+    width: 100,
+    height: 100,
+    borderRadius: 10,
+    borderWidth: 1,
+    borderColor: '#ccc',
+  },
+  imageLabel: {
+    marginTop: 5,
+    fontSize: 13,
+    textAlign: 'center',
+    color: '#3074a1',
+    textDecorationLine: 'underline'
+  },
+  title: {
+    fontSize: 24,
+    marginBottom: 20,
+    textAlign: 'center',
+    color: '#000',
+  },
+  textTitle: {
+    fontSize: 34,
+    marginBottom: 10,
+    textAlign: 'center',
+    color: '#000',
+    fontWeight: 700
+  },
+  textSubTitle: {
+    fontSize: 26,
+    textAlign: 'center',
+    color: '#000',
+    fontWeight: 600
+  },
+  textMedium: {
+    fontSize: 22,
+    marginBottom: 20,
+    textAlign: 'center',
+    color: '#000',
+    fontWeight: 400
+  },
+  button: {
+    backgroundColor: '#00939C',
+    padding: 10,
+    borderRadius: 5,
+    alignItems: 'center',
+    borderRadius: 15,
+    width: 150
+  },
+  buttonCloseModal: {
+    flexDirection: 'row',
+    backgroundColor: '#007bc1',
+    paddingHorizontal: 10,
+    padding: 10,
+    alignItems: 'center',
+    borderRadius: 10,
+    width: 120
+  },
+  btnForgotPass: {
+    padding: 5,
+    borderRadius: 5,
+    alignItems: 'center',
+    borderRadius: 10
+  },
+  buttonUploads: {
+    backgroundColor: '#e2e2e2',
+    padding: 5,
+    alignItems: 'center',
+    borderRadius: 15,
+    width: 80,
+    elevation: 2, // Sombra en Android
+    shadowColor: '#000', // Sombra en iOS
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+  },
+  buttonDownloads: {
+    flexDirection: 'row',
+    //  backgroundColor: '#f5f5f5',
+    paddingHorizontal: 10,
+    paddingVertical: 2,
+    alignItems: 'center',
+    borderRadius: 15,
+    //elevation: 3
+  },
+  buttonClose: {
+    position: 'flex-end',
+    backgroundColor: '#616161',
+    paddingHorizontal: 10,
+    paddingVertical: 2,
+    alignItems: 'center',
+    borderRadius: 15,
+    elevation: 3,
+    maxWidth: 100,
+    marginBottom: 20
+  },
+  btnAssign: {
+    flexDirection: 'row',
+    backgroundColor: '#657b40',
+    paddingHorizontal: 10,
+    paddingVertical: 6,
+    alignItems: 'center',
+    borderRadius: 15,
+    elevation: 3,
+    maxWidth: 160,
+    marginBottom: 20
+  },
+  btnReasign: {
+    flexDirection: 'row',
+    backgroundColor: '#b82b14',
+    paddingHorizontal: 10,
+    paddingVertical: 8,
+    alignItems: 'center',
+    borderRadius: 15,
+    elevation: 3,
+    maxWidth: 160,
+    marginBottom: 20
+  },
+  btnCancel: {
+    flexDirection: 'row',
+    backgroundColor: '#393d45',
+    paddingHorizontal: 10,
+    paddingVertical: 8,
+    alignItems: 'center',
+    borderRadius: 15,
+    elevation: 3,
+    maxWidth: 160,
+    marginBottom: 20
+  },
+  btnResonse: {
+    flexDirection: 'row',
+    backgroundColor: '#09537a',
+    paddingHorizontal: 10,
+    paddingVertical: 8,
+    alignItems: 'center',
+    borderRadius: 15,
+    elevation: 3,
+    maxWidth: 160,
+    marginBottom: 20
+  },
+  btnSend: {
+    flexDirection: 'row',
+    backgroundColor: '#00939C',
+    paddingHorizontal: 10,
+    padding: 10,
+    alignItems: 'center',
+    borderRadius: 10,
+    maxWidth: 180
+  },
+  deleteButtonImg: {
+    backgroundColor: 'rgba(209, 30, 19, 0.6)',
+    alignItems: 'center',
+    borderRadius: 10,
+    padding: 7,
+  },
+  buttonColored: {
+    backgroundColor: '#1dab50',
+    padding: 10,
+    alignItems: 'center',
+    borderRadius: 15,
+    width: 150
+  },
+  buttonText: {
+    color: '#fff',
+    fontSize: 16,
+  },
+  buttonSelect: {
+    backgroundColor: '#00939C',
+    padding: 8,
+    borderRadius: 15,
+    alignItems: 'center',
+    width: 40
+  },
+  buttonTextGeneraData: {
+    color: '#000',
+    fontSize: 12,
+  },
+  buttonNextToText: {
+    padding: 10,
+    alignItems: 'center'
+  },
+  buttonNextToTextLabel: {
+    fontSize: 9,
+    color: '#000',
+    fontWeight: '400'
+  },
+  option: {
+    flexDirection: 'column',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0, 147, 156, 0.8)',
+    padding: 10,
+    borderRadius: 30,
+    marginBottom: 20,
+    width: 180,
+    alignItems: 'center',
+  },
+  optionText: {
+    color: '#fff',
+    fontSize: 16,
+    alignItems: 'center',
+    verticalAlign: 'middle'
+  },
+  txtTitle: {
+    flexDirection: 'column',
+    color: '#1e1e1e',
+    fontSize: 14,
+    borderRadius: 5,
+    padding: 5,
+    borderColor: '#00939c',
+    borderWidth: 0.5,
+    marginBottom: 15
+  },
+  label: {
+    fontSize: 18,
+    fontWeight: '500',
+    marginBottom: 10,
+    color: '#151E26',
+  },
+  labelSm: {
+    fontSize: 14,
+    fontWeight: '700',
+    marginBottom: 5,
+    color: '#151E26',
+  },
+  labelDropdown: {
+    fontSize: 14,
+    fontWeight: '500',
+    marginBottom: 5,
+    color: '#151E26',
+  },
+  dropdownButtonStyle: {
+    width: 200,
+    height: 40,
+    backgroundColor: '#e2e2e2',
+    borderRadius: 12,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 10,
+    marginRight: 5,
+    marginBottom: 5,
+    elevation: 2
+  },
+  dropdownButtonStyleAval: {
+    width: 200,
+    height: 40,
+    backgroundColor: '#E9ECEF',
+    borderRadius: 12,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 12,
+    marginBottom: 5,
+  },
+  dropdownButtonTxtStyle: {
+    flex: 1,
+    fontSize: 12,
+    fontWeight: '700',
+    color: '#151E26',
+  },
+  dropdownButtonArrowStyle: {
+    fontSize: 16,
+    fontWeight: '500',
+  },
+  modalContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0,0,0,0.5)',
+  },
+  modalContent: {
+    width: '85%',
+    maxHeight: '65%',
+    backgroundColor: 'white',
+    borderRadius: 8,
+    padding: 20,
+  },
+  modalContentTech: {
+    width: '95%',
+    maxHeight: '85%',
+    backgroundColor: 'white',
+    borderRadius: 8,
+    padding: 20,
+  },
+  modalItem: {
+    flexDirection: 'row',
+    padding: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: '#ccc',
+  },
+  modalItemText: {
+    fontSize: 16,
+  },
+  scrollView: {
+    maxHeight: '100%',
+    padding: 10,
+    backgroundColor: '#eeeeee'
+  },
+  rowContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+    marginBottom: 20,
+  },
+  rowUploads: {
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+    marginBottom: 10,
+    paddingVertical: 10
+  },
+  buttonExit: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: 'rgba(11, 23, 26, 0.8)',
+    padding: 10,
+    borderRadius: 5,
+    alignItems: 'center',
+  },
+  headerTitle: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  headerTitleText: {
+    color: 'white',
+    fontSize: 16,
+    marginLeft: 5,
+  },
+  headerEmailText: {
+    color: 'white',
+    fontSize: 16,
+  },
+  contentContainer: {
+    flexGrow: 1,
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+  },
+  checkboxBase: {
+    width: 24,
+    height: 24,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 4,
+    borderWidth: 2,
+    borderColor: 'coral',
+    backgroundColor: 'transparent',
+  },
+  checkboxChecked: {
+    backgroundColor: 'coral',
+  },
+  checkboxContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  checkboxLabel: {
+    marginLeft: 8,
+    fontWeight: '500',
+    fontSize: 18,
+  },
+  //********************************************************* TABLE STYLE ************************************************
+  row: {
+    flexDirection: 'row',
+    borderBottomWidth: 1,
+    borderBottomColor: '#ccc',
+    padding: 3,
+    paddingHorizontal: 5
+  },
+  actionCell: {
+    flex: 1,
+    maxWidth: 100,
+    textAlign: 'center',
+    alignItems: 'center'
+  },
+  cell: {
+    flex: 1,
+    maxWidth: 250,
+    textAlign: 'auto',
+  },
+  headerRow: {
+    flexDirection: 'row',
+    backgroundColor: '#f1f1f1',
+    borderBottomWidth: 1,
+    borderBottomColor: '#ccc',
+    padding: 10,
+    borderRadius: 10,
+  },
+  actionHeaderCell: {
+    flex: 1,
+    maxWidth: 100,
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+  headerCell: {
+    flex: 1,
+    maxWidth: 250,
+    fontWeight: 'bold',
+    textAlign: 'auto',
+  },
+  txtSM: {
+    fontSize: 16,
+    color: '#777',
+    marginVertical: 2,
+    textAlign: 'center'
+  },
+  // *********************************** Lista de tickets ***************************************
+  //#region "Lista Ticket Light"
+  cardList: {
+    margin: 5,
+    borderRadius: 8,
+    elevation: 3,
+    backgroundColor: '#f5f5f5',
+  },
+  titleCardList: {
+    marginTop: 15,
+    fontSize: 16,
+    fontWeight: 'bold',
+    marginVertical: 5,
+    color: '#333',
+    maxWidth: 250
+  },
+  descriptionCardList: {
+    fontSize: 13,
+    color: '#555',
+    marginBottom: 3,
+    //  textDecorationLine: 'underline'
+  },
+  TxtForgotPass: {
+    fontSize: 13,
+    color: '#555',
+    marginBottom: 3,
+    textDecorationLine: 'underline'
+  },
+  detailsCardList: {
+    fontSize: 12,
+    color: '#777',
+    marginVertical: 2,
+  },
+  boldTxtCard: {
+    fontWeight: 'bold',
+    color: '#000',
+  },
+  containerSearchList: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#e4e4e4',
+    borderRadius: 10,
+    paddingHorizontal: 5,
+    marginBottom: 15,
+    marginLeft: 5,
+    elevation: 3,
+    width: '75%'
+  },
+  inputListSearch: {
+    flex: 1,
+    color: '#091519',
+    paddingVertical: 10,
+    paddingRight: 8,
+    fontSize: 18,
+    borderColor: '#212121',
+    padding: 15,
+  },
+  statusContainer: {
+    position: 'absolute',
+    top: 1,
+    right: 2,
+    zIndex: 1,
+  },
+  statusText: {
+    paddingHorizontal: 10,
+    paddingVertical: 3,
+    borderRadius: 5,
+    color: '#fff',
+    fontSize: 12,
+    fontWeight: 'bold',
+    overflow: 'hidden', // Asegura que el texto no sobresalga
+  },
+  //#endregion
+  // ***********************************Historial del ticket Light *****************************************
+  //#region "Historial del ticket Light"
+  historyContentView: {
+    backgroundColor: '#ededed', borderLeftWidth: 2, borderLeftColor: '#9f9f9f', marginBottom: 8, padding: 8, shadowColor: '#000', shadowOpacity: 0.1, shadowRadius: 5
+  },
+  historyCardList: {
+    margin: 3,
+    borderRadius: 3,
+    elevation: 3,
+    backgroundColor: '#f5f5f5',
+    padding: 5
+  },
+  //#endregion
+
+
+  // *********************************** Menu de usario *****************************************
+  modalOverlay: {
+    flex: 1,
+    backgroundColor: 'rgba(0,0,255,0.7)',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  menuContainer: {
+    width: 200,
+    borderRadius: 10,
+    padding: 10,
+    elevation: 5,
+  },
+  menuItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingVertical: 10,
+  },
+  menuText: {
+    marginLeft: 10,
+    fontSize: 16,
+  },
+  // ****************************************************************** END ************************************************
+  themeText: '#000000',
+  menuColor: '#00858f',
+  alertBackground: '#ffffff',
+  alertText: '#000000',
+  alertButtonBackground: '#f6f6f6',
+  alertButtonText: '#262626',
+  colorExitBtn: '#404040',
+  alertColor: '#ff4428',
+  warningColor: '#ffcd00',
+  succesColor: '#1dab50',
+  questionColor: '#4285f4',
+  defaultColor: '#404040',
+  backColor: '#eeeeee'
+};
+// ******************************* DARK THEME *******************************************
+export const darkTheme = {
+  mainColor: '#414141',
+  mainContainer: {
+    alignItems: 'center',
+    flexGrow: 1,
+    padding: 15,
+    backgroundColor: '#202020'
+  },
+  menuScreenContainer: {
+    flexGrow: 1,
+    padding: 16,
+    backgroundColor: '#202020',
+  },
+  containerHistory: {
+    maxHeight: '50vh', padding: 16, backgroundColor: '#202020'
+  },
+  card: {
+    marginBottom: 16,
+    borderRadius: 10,
+    backgroundColor: '#363636',
+    elevation: 3, // Sombra en Android
+    shadowColor: '#fff', // Sombra en iOS
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+  },
+  cardContent: {
+    flexDirection: 'row' | 'column',
+    alignItems: 'center',
+    padding: 16,
+  },
+  cardText: {
+    marginLeft: 16,
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#fff',
+  },
+  scrollContent: {
+    flexGrow: 1,
+    justifyContent: 'flex-start',
+    padding: 8
+  },
+  container: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#414141',
+    borderRadius: 10,
+    paddingHorizontal: 10,
+    marginBottom: 12
+  },
+  containerLogin: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#414141',
+    borderRadius: 10,
+    paddingHorizontal: 5,
+    marginBottom: 15,
+    elevation: 1
+  },
+  containerClient: {
+    flexDirection: 'column',
+    backgroundColor: '#404040',
+  },
+  containerClientInfo: {
+    flexDirection: 'column',
+    backgroundColor: '#404040',
+    borderRadius: 10,
+    marginBottom: 20,
+    padding: 10,
+    borderWidth: 1,
+    borderColor: '#FFFFFF'
+  },
+  uploadImgContainer: {
+    marginTop: 20,
+    marginBottom: 5
+  },
+  input: {
+    flex: 1,
+    color: '#FFFFFF',
+    paddingVertical: 15,
+    paddingRight: 8,
+    fontSize: 18,
+    borderColor: '#FFFFFF',
+    padding: 15
+  },
+  inputOTP: {
+    borderWidth: 1,
+    borderColor: '#ccc',
+    borderRadius: 8,
+    padding: 5,
+    backgroundColor: '#4c4c4c'
+  },
+  inputArea: {
+    flex: 1,
+    color: '#FFFFFF',
+    borderColor: '#686868',
+    borderWidth: 2,
+    padding: 8,
+    fontSize: 14,
+    borderRadius: 7,
+    minHeight: 80
+  },
+  inputAreaAlert: {
+    flex: 1,
+    color: '#FFFFFF',
+    borderColor: '#ee2014',
+    borderWidth: 0.5,
+    padding: 8,
+    fontSize: 14,
+    borderRadius: 7,
+    minHeight: 80
+  },
+  inputContainer: {
+    elevation: 2,
+    backgroundColor: '#1e1e1e',
+    borderRadius: 10
+  },
+  inputWButton: {
+    flex: 1,
+    color: '#ccc',
+    fontSize: 16,
+    paddingVertical: 10,
+    borderRadius: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: '#FFF'
+  },
+  inputSearch: {
+    color: '#e9e9e9',
+    backgroundColor: '#383838',
+    fontSize: 16,
+    borderRadius: 10,
+    borderWidth: 0.5,
+    marginTop: 20,
+    marginBottom: 20,
+    maxWidth: 350,
+    marginLeft: 10,
+    paddingHorizontal: 10,
+    elevation: 3, // Sombra en Android
+    shadowColor: '#ccc', // Sombra en iOS
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.8,
+    shadowRadius: 4,
+  },
+  inputSearchContainer: {
+    width: '80%',
+    padding: 20
+  },
+  icon: {
+    marginRight: 10,
+  },
+  heading: {
+    alignItems: 'center',
+    fontSize: 20,
+    color: 'green',
+    marginBottom: 20,
+  },
+  imageContainer: {
+    marginBottom: 20,
+    alignItems: 'center',
+  },
+  imageBackLogo: {
+    position: 'absolute',
+    top: 0,
+    left: 15,
+    right: 0,
+    bottom: 0,
+    zIndex: -1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  imageContLogo: {
+    width: '100%',
+    height: '100%',
+    resizeMode: 'contain',
+    opacity: 0.3,
+  },
+  logoContainer: {
+    width: 75,
+    height: 75,
+    resizeMode: 'contain',
+    alignItems: 'flex-end',
+    alignContent: 'flex-end'
+  },
+  image: {
+    width: 225,
+    height: 225,
+    resizeMode: 'contain',
+    alignItems: 'center',
+  },
+  imageHeader: {
+    width: 75,
+    height: 75,
+    resizeMode: 'contain',
+    alignItems: 'center',
+  },
+  imageWrapper: {
+    margin: 10,
+    alignItems: 'center',
+  },
+  imageStyle: {
+    width: 100,
+    height: 100,
+    borderRadius: 10,
+    borderWidth: 1,
+    borderColor: '#ccc',
+  },
+  imageLabel: {
+    marginTop: 5,
+    fontSize: 13,
+    textAlign: 'center',
+    color: '#fff',
+    textDecorationLine: 'underline'
+  },
+  title: {
+    fontSize: 28,
+    marginBottom: 20,
+    textAlign: 'center',
+    color: '#fff'
+  },
+  textTitle: {
+    fontSize: 34,
+    marginBottom: 10,
+    textAlign: 'center',
+    color: '#fff',
+    fontWeight: 700
+  },
+  textSubTitle: {
+    fontSize: 26,
+    textAlign: 'center',
+    color: '#fff',
+    fontWeight: 600
+  },
+  textMedium: {
+    fontSize: 22,
+    marginBottom: 20,
+    textAlign: 'center',
+    color: '#fff',
+    fontWeight: 400
+  },
+  button: {
+    backgroundColor: '#404040',
+    padding: 10,
+    borderRadius: 5,
+    alignItems: 'center',
+    borderRadius: 15,
+    width: 150
+  },
+  buttonCloseModal: {
+
+    backgroundColor: '#404040',
+    padding: 10,
+    borderRadius: 5,
+    alignItems: 'center',
+    borderRadius: 15,
+    width: 150
+  },
+  btnForgotPass: {
+    padding: 5,
+    borderRadius: 5,
+    alignItems: 'center',
+    borderRadius: 10,
+  },
+  buttonUploads: {
+    backgroundColor: '#404040',
+    padding: 5,
+    alignItems: 'center',
+    borderRadius: 15,
+    width: 80,
+    elevation: 2, // Sombra en Android
+    shadowColor: '#fff', // Sombra en iOS
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+  },
+  buttonDownloads: {
+    flexDirection: 'row',
+    //backgroundColor: '#525252',
+    paddingHorizontal: 10,
+    paddingVertical: 2,
+    alignItems: 'center',
+    borderRadius: 15,
+    //elevation: 3
+  },
+  buttonClose: {
+    position: 'flex-end',
+    backgroundColor: '#525252',
+    paddingHorizontal: 10,
+    paddingVertical: 2,
+    alignItems: 'center',
+    borderRadius: 15,
+    elevation: 3,
+    maxWidth: 100,
+    marginBottom: 20
+  },
+  btnAssign: {
+    flexDirection: 'row',
+    backgroundColor: '#657b40',
+    paddingHorizontal: 10,
+    paddingVertical: 6,
+    alignItems: 'center',
+    borderRadius: 15,
+    elevation: 3,
+    maxWidth: 160,
+    marginBottom: 20
+  },
+  btnResonse: {
+    flexDirection: 'row',
+    backgroundColor: '#09537a',
+    paddingHorizontal: 10,
+    paddingVertical: 8,
+    alignItems: 'center',
+    borderRadius: 15,
+    elevation: 3,
+    maxWidth: 160,
+    marginBottom: 20
+  },
+  btnReasign: {
+    flexDirection: 'row',
+    backgroundColor: '#b82b14',
+    paddingHorizontal: 10,
+    paddingVertical: 8,
+    alignItems: 'center',
+    borderRadius: 15,
+    elevation: 3,
+    maxWidth: 160,
+    marginBottom: 20
+  },
+  btnCancel: {
+    flexDirection: 'row',
+    backgroundColor: '#393d45',
+    paddingHorizontal: 10,
+    paddingVertical: 8,
+    alignItems: 'center',
+    borderRadius: 15,
+    elevation: 3,
+    maxWidth: 160,
+    marginBottom: 20
+  },
+  btnSend: {
+    flexDirection: 'row',
+    backgroundColor: '#00939C',
+    paddingHorizontal: 10,
+    padding: 10,
+    alignItems: 'center',
+    borderRadius: 10,
+    maxWidth: 180
+  },
+  deleteButtonImg: {
+    backgroundColor: '#ca2727',
+    alignItems: 'center',
+    borderRadius: 5,
+  },
+  buttonColored: {
+    backgroundColor: '#1dab50',
+    padding: 10,
+    alignItems: 'center',
+    borderRadius: 15,
+    width: 150
+  },
+  buttonNextToText: {
+    padding: 10,
+    alignItems: 'center'
+  },
+  buttonNextToTextLabel: {
+    fontSize: 9,
+    color: '#fff',
+    fontWeight: '400'
+  },
+  buttonText: {
+    color: '#fff',
+    fontSize: 16,
+  },
+  buttonSelect: {
+    backgroundColor: '#00939C',
+    padding: 8,
+    borderRadius: 15,
+    alignItems: 'center',
+    width: 40
+  },
+  buttonTextGeneraData: {
+    color: '#fff',
+    fontSize: 12,
+  },
+  option: {
+    flexDirection: 'column',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0, 147, 156, 0.9)',
+    padding: 10,
+    borderRadius: 30,
+    marginBottom: 20,
+    width: 180,
+    alignItems: 'center',
+  },
+  optionText: {
+    color: '#fff',
+    fontSize: 15,
+    alignItems: 'center',
+    verticalAlign: 'middle'
+  },
+  txtTitle: {
+    flexDirection: 'column',
+    color: '#E8E8E8',
+    fontSize: 14,
+    borderRadius: 5,
+    padding: 5,
+    borderColor: '#686868',
+    borderWidth: 0.5,
+    marginBottom: 10
+  },
+  label: {
+    fontSize: 18,
+    fontWeight: '500',
+    marginBottom: 10,
+    color: '#ffffff',
+  },
+  labelSm: {
+    fontSize: 14,
+    fontWeight: '500',
+    marginBottom: 5,
+    color: '#ffffff',
+  },
+  labelDropdown: {
+    fontSize: 14,
+    fontWeight: '500',
+    marginBottom: 5,
+    color: '#ffffff',
+  },
+  dropdownButtonStyle: {
+    width: 200,
+    height: 40,
+    backgroundColor: '#414141',
+    borderRadius: 12,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 10,
+    marginRight: 5,
+    marginBottom: 5,
+  },
+  dropdownButtonStyleAval: {
+    width: 200,
+    height: 40,
+    backgroundColor: '#2B2B2B',
+    borderRadius: 12,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 12,
+    marginBottom: 5,
+  },
+  dropdownButtonTxtStyle: {
+    flex: 1,
+    fontSize: 12,
+    fontWeight: '700',
+    color: '#ffffff',
+  },
+  dropdownButtonArrowStyle: {
+    fontSize: 16,
+    fontWeight: '500',
+    color: '#ffffff',
+  },
+  modalContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0,0,0,0.5)',
+  },
+  modalContent: {
+    width: '85%',
+    maxHeight: '65%',
+    backgroundColor: '#414141',
+    borderRadius: 8,
+    padding: 20,
+  },
+  modalContentTech: {
+    width: '95%',
+    maxHeight: '85%',
+    backgroundColor: '#2e2e2e',
+    borderRadius: 8,
+    padding: 20,
+  },
+
+  modalItem: {
+    flexDirection: 'row',
+    padding: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: '#ccc',
+    color: '#ffffff',
+  },
+  modalItemText: {
+    fontSize: 16,
+    color: '#ffffff',
+  },
+  scrollView: {
+    maxHeight: '100%',
+    padding: 10,
+    backgroundColor: '#202020'
+  },
+  rowContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+    marginBottom: 20,
+  },
+  rowUploads: {
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+    marginBottom: 20,
+    paddingVertical: 10
+  },
+  buttonExit: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: 'rgba(40, 46, 48, 0.1)',
+    padding: 8,
+    borderRadius: 20,
+    alignItems: 'center',
+  },
+  headerTitle: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  headerTitleText: {
+    color: 'white',
+    fontSize: 16,
+    marginLeft: 5,
+  },
+  headerEmailText: {
+    color: 'white',
+    fontSize: 16,
+  },
+  contentContainer: {
+    flexGrow: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  checkboxBase: {
+    width: 24,
+    height: 24,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 4,
+    borderWidth: 2,
+    borderColor: 'coral',
+    backgroundColor: 'transparent',
+  },
+  checkboxChecked: {
+    backgroundColor: 'coral',
+  },
+  checkboxContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  checkboxLabel: {
+    marginLeft: 8,
+    fontWeight: '500',
+    fontSize: 18,
+  },
+  //********************************************************* TABLE STYLE ************************************************
+  row: {
+    flexDirection: 'row',
+    backgroundColor: '#404040',
+    borderBottomWidth: 1,
+    borderBottomColor: '#ccc',
+    color: '#ccc',
+    padding: 5,
+  },
+  actionCell: {
+    flex: 1,
+    maxWidth: 100,
+    textAlign: 'center',
+    alignItems: 'center'
+  },
+  cell: {
+    flex: 1,
+    maxWidth: 250,
+    textAlign: 'auto',
+    color: '#ccc'
+  },
+  headerRow: {
+    flexDirection: 'row',
+    backgroundColor: '#333333',
+    borderBottomWidth: 1,
+    borderBottomColor: '#ccc',
+    padding: 10,
+    borderRadius: 10,
+  },
+  actionHeaderCell: {
+    flex: 1,
+    maxWidth: 100,
+    fontWeight: 'bold',
+    color: '#ccc',
+    textAlign: 'center',
+  },
+  headerCell: {
+    flex: 1,
+    maxWidth: 250,
+    fontWeight: 'bold',
+    textAlign: 'auto',
+    color: '#ccc'
+  },
+  // *********************************** Menu de usario *****************************************
+  modalOverlay: {
+    flex: 1,
+    backgroundColor: 'rgba(11, 23, 26, 0.8)',
+    marginTop: 300,
+    justifyContent: 'top',
+    alignItems: 'center',
+  },
+  menuContainer: {
+    width: 'auto',
+    justifyContent: 'flex-end',
+    alignItems: 'flex-end',
+    marginTop: 50
+  },
+  menuItem: {
+    backgroundColor: '#4b6369',
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 5,
+    padding: 10,
+    borderWidth: 0.5,
+    borderRadius: 5,
+    borderColor: '#4b6369'
+
+  },
+  menuText: {
+    marginLeft: 10,
+    fontSize: 24,
+    padding: 5
+  },
+  txtSM: {
+    fontSize: 16,
+    color: '#e9e9e9',
+    marginVertical: 2,
+    textAlign: 'center'
+  },
+  // *********************************** Lista de tickets ***************************************
+  //#region "Lista de tickets Dark"
+  cardList: {
+    margin: 5,
+    borderRadius: 8,
+    elevation: 3,
+    backgroundColor: '#383838',
+  },
+  titleCardList: {
+    marginTop: 15,
+    fontSize: 16,
+    fontWeight: 'bold',
+    marginVertical: 5,
+    color: '#f3f3f3',
+    maxWidth: 250
+  },
+  descriptionCardList: {
+    fontSize: 13,
+    color: '#e9e9e9',
+    marginBottom: 3,
+    // textDecorationLine: 'underline'
+  },
+  TxtForgotPass: {
+    fontSize: 13,
+    color: '#e9e9e9',
+    marginBottom: 3,
+    textDecorationLine: 'underline'
+  },
+  detailsCardList: {
+    fontSize: 12,
+    color: '#e9e9e9',
+    marginVertical: 2,
+  },
+  boldTxtCard: {
+    fontWeight: 'bold',
+    color: '#e9e9e9',
+  },
+  containerSearchList: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#414141',
+    borderRadius: 10,
+    paddingHorizontal: 5,
+    marginBottom: 15,
+    marginLeft: 5,
+    elevation: 3,
+    width: '75%'
+  },
+  inputListSearch: {
+    flex: 1,
+    color: '#FFFFFF',
+    paddingVertical: 10,
+    paddingRight: 8,
+    fontSize: 18,
+    borderColor: '#FFFFFF',
+    padding: 15,
+  },
+  statusContainer: {
+    position: 'absolute',
+    top: 1,
+    right: 2,
+    zIndex: 1,
+  },
+  statusText: {
+    paddingHorizontal: 10,
+    paddingVertical: 3,
+    borderRadius: 5,
+    color: '#fff',
+    fontSize: 12,
+    fontWeight: 'bold',
+    overflow: 'hidden', // Asegura que el texto no sobresalga
+  },
+  //#endregion
+  // ***********************************Historial del ticket Light *****************************************
+  //#region "Historial del ticket Light"
+  historyContentView: {
+    backgroundColor: '#383838', borderRadius: 8, marginBottom: 8, padding: 8, shadowColor: '#000', shadowOpacity: 0.1, shadowRadius: 5
+  },
+  historyCardList: {
+    margin: 3,
+    borderRadius: 3,
+    elevation: 3,
+    backgroundColor: '#383838',
+    padding: 5
+  },
+  //#endregion
+  // ****************************************************************** END ************************************************
+  themeText: '#ffffff',
+  menuColor: '#383838',
+  alertBackground: '#333333',
+  alertText: '#ffffff',
+  alertButtonBackground: '#3e3e3e',
+  alertButtonText: '#ffffff',
+  alertColor: '#ff4428',
+  warningColor: '#ffcd00',
+  succesColor: '#1dab50',
+  questionColor: '#4285f4',
+  defaultColor: '#404040',
+  backColor: '#202020'
+};
+export default lightTheme;

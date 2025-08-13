@@ -48,6 +48,7 @@ const usePushNotifications = () => {
           icon: "../../assets/logo.png",
         });
       }
+      console.log(token)
       return token;
     } else {
       console.log("ERROR: Por favor usa un dispositivo fisico");
@@ -80,7 +81,7 @@ const usePushNotifications = () => {
 
   return {
     expoPushToken,
-    notification,
+    notification,    
   };
 };
 

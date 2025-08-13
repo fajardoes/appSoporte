@@ -5,15 +5,15 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/logo.png",
-    "color": "#006223",
+    "color": "#61affe",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "notification": {
       "icon": "./assets/logo.png",
-      "color": "#006223"
+      "color": "#61affe"
     },
     "extra": {
-      "API_URL": "https://agentespilarh.com/supportAPI",
+      "API_URL": "https://agentespilarh.com/soporteAlternoApi",
       "router": {
         "origin": false
       },
@@ -31,10 +31,7 @@
         "foregroundImage": "./assets/logo.png"
       },
       "package": "com.fajardoes.appsupport",
-      "permissions": [
-        "INTERNET",
-        "ACCESS_NETWORK_STATE"
-      ],
+      "permissions": ["INTERNET", "ACCESS_NETWORK_STATE"],
       "googleServicesFile": "./google-services.json"
     },
     "web": {
@@ -56,7 +53,7 @@
         "expo-notifications",
         {
           "icon": "./assets/logo.png",
-          "color": "#006223",
+          "color": "#61affe",
           "defaultChannel": "default",
           "enableBackgroundRemoteNotifications": false
         }
